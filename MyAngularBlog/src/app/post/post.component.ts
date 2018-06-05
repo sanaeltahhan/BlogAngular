@@ -13,10 +13,31 @@ export class PostComponent implements OnInit {
   @Input() postDate: Date;
 
   constructor() {
+    this.postLoveIts = 0;
   }
 
   ngOnInit() {
 
+  }
+
+  onLoveIt() {
+    this.postLoveIts = this.postLoveIts + 1;
+    console.log(this.postLoveIts);
+  }
+
+  onDontLoveIt() {
+    this.postLoveIts = this.postLoveIts - 1;
+    console.log(this.postLoveIts);
+  }
+
+  getColor() {
+    if (this.postLoveIts === 0) {
+      return 'black';
+    } else if (this.postLoveIts > 0) {
+      return 'green';
+    } else {
+      return 'red';
+    }
   }
 
 }
