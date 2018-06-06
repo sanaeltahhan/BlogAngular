@@ -23,12 +23,10 @@ export class PostComponent implements OnInit {
 
   onLoveIt() {
     this.postLoveIts = this.postLoveIts + 1;
-    console.log(this.postLoveIts);
   }
 
   onDontLoveIt() {
     this.postLoveIts = this.postLoveIts - 1;
-    console.log(this.postLoveIts);
   }
 
 }
