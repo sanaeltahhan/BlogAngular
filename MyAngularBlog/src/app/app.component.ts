@@ -10,7 +10,7 @@ export class AppComponent {
   posts = [
     {
       title: 'Mon premier Post' ,
-      content: 'Je fais un blog en angular!',
+      content: 'Je fais un blog en Angular!',
     },
     {
       title: 'Mon deuxieme Post' ,
