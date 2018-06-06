@@ -11,20 +11,14 @@ export class AppComponent {
     {
       title: 'Mon premier Post' ,
       content: 'Je fais un blog en angular!',
-      loveIts: 0,
-      created_at: new Date()
     },
     {
       title: 'Mon deuxieme Post' ,
-      content: 'Je fais un blog en angular!',
-      loveIts: 0,
-      created_at: new Date()
+      content: 'Angular c\'est cool !',
     },
     {
       title: 'Mon troisieme Post' ,
-      content: 'Je fais un blog en angular!',
-      loveIts: 0,
-      created_at: new Date()
+      content: 'J\'apprend à manipuler Angular!',
     }
   ];
 
